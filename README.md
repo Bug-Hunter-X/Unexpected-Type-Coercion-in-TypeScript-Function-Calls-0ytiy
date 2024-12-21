@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in TypeScript related to implicit type coercion during function calls. The `greeter` function expects a string, but it's called with an array.  TypeScript's type system doesn't throw an error, but the result is unexpected. The solution shows how to explicitly type check arguments and use type guards to prevent this.
